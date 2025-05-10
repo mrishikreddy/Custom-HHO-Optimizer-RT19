@@ -4,7 +4,7 @@ This project implements a binary classification model for breast cancer diagnosi
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Installation Instructions](#installation-instructions)  
 - [Usage](#usage)  
@@ -12,7 +12,7 @@ This project implements a binary classification model for breast cancer diagnosi
 
 ---
 
-## 📥 Installation Instructions
+## Installation Instructions
 
 ### Prerequisites
 
@@ -29,7 +29,7 @@ This project implements a binary classification model for breast cancer diagnosi
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. **Preprocess the Dataset**
    - Handles missing values and encodes labels.
@@ -50,16 +50,16 @@ This project implements a binary classification model for breast cancer diagnosi
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Binary classification of cell samples (Benign/Malignant).
-- 🔧 Custom implementation of Harris Hawks Optimization (HHO).
-- 📊 Accuracy and binary cross-entropy loss visualization.
-- 📦 No use of built-in Keras training APIs – optimization is fully custom.
-- 🧪 Predicts single sample after training completion.
-- 📈 Loss and accuracy are plotted over epochs to monitor performance.
+- Binary classification of cell samples (Benign/Malignant).
+- Custom implementation of Harris Hawks Optimization (HHO).
+- Accuracy and binary cross-entropy loss visualization.
+- No use of built-in Keras training APIs – optimization is fully custom.
+- Predicts single sample after training completion.
+- Loss and accuracy are plotted over epochs to monitor performance.
 
 ---
 
-> ⚠️ **Note:** HHO is a metaheuristic optimizer and may take longer to converge than traditional gradient-based methods. Recommended to run in a GPU-enabled environment such as Google Colab.
+> **Note:** HHO is a metaheuristic optimizer and may take longer to converge than traditional gradient-based methods. Recommended to run in a GPU-enabled environment such as Google Colab.
 
